@@ -1,0 +1,52 @@
+Header{
+    background-color: rgb(204, 185, 10); 
+    padding: 20px; 
+    text-align:center
+}
+
+body{
+    margin: 0%;
+    flex-wrap: wrap;
+}
+
+nav :hover{
+   color: rgb(20, 20, 11);
+}
+
+nav{
+    background-color: rgb(250, 131, 62); 
+    padding: 20px; display:flex; 
+    justify-content:center; 
+    gap: 50px;
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+.display{
+    display: flex;
+}
+
+section{
+    background-color:rgb(253, 253, 253); 
+    padding: 20px; 
+    flex:4
+}
+
+aside{
+    background-color: rgb(228, 213, 171); 
+    padding: 20px; 
+    flex:2
+}
+
+footer{
+    background-color: rgb(204, 185, 10); 
+    padding: 20px; 
+    text-align:center
+}
+
+.profile{
+   border-radius: 50px;
+   background-color: black;
+   width: 90px; 
+   height: 90px
+}

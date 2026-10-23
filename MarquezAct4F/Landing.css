@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #0f0f1a;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #ff4d6d;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #1a1a2e;
+    z-index: 1000;
+}
+
+.Logo{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.logo span{
+    color: #ff4d6d;
+}
+
+.links a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color  0.3s ease;
+}
+
+.links a:hover{
+    color:#ff4d6d;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    position: sticky;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    gap: 40px;
+}
+
+.HeroCon{
+    max-width: 45%;
+}
+
+.HeroCon h2{
+    text-align: left;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.hero img{
+    width: 45%;
+    border-radius: 15px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #ff4d6d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.btn :hover{
+    background-color: #ff758f;
+    transform: scale(1.05);
+}
+
+.contrend{
+    padding: 60px 10%;
+}
+
+.congen{
+    background-color: #1a1a2e;
+}
+
+.CardContainer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: #24243e;
+    border-radius: 12px;
+    padding: 30px;
+    width: 240px;
+    text-align: center;
+    transition: 0.3 ease;
+}
+
+.card img{
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.btn-small{
+    padding: 8px 20px;
+    margin-top: 10px;
+    background: #ff4d6d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.GenContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+}
+
+.genbox{
+    padding: 15px 30px;
+    background: #ff4d6d;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.genbox :hover{
+    background: #ff758f;
+}
+
+.contacform{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contacform input{
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    width: 300px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    backdrop-filter: #3a1313;
+}

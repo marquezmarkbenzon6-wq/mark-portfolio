@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="registration.css"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body >
+    <Header>
+        <h1> REGISTRATION  </h1>
+        <p> Do you want to be a part of my website? </p>
+    </Header>
+
+     <nav>
+        <a href="Home.html" target="_self"> Home </a>
+        <a href="Registration.html" target="_self"> Registration </a>
+        <a href="Grade.html" target="_self"> Grade Table </a>
+        <a href="Profile.html" target="_self"> My Profile </a>
+    </nav>
+
+    <div class="card">
+    <br>
+    <form >
+        First name:  <input type="text" name="first_name" />
+    <br>
+        Last name:  <input type="text" name="last_name" />
+    </form>
+    
+    <br>
+    <div class="desc">
+    <br>
+    <form>
+        About you: <br />
+        <textarea rows="5" cols="50" name="description" placeholder=” Enter description here...”></textarea>
+    </form>
+    </div>
+
+    <h3> Do you have Desktop or PV </h3>
+    <form>
+        <input type="checkbox" name="Yes" value="on"> Yes
+    <br>
+        <input type="checkbox" name="No" value="on"> No
+    </form>
+
+    <h3> Gender </h3>
+    <form>
+        <input type="radio" name="Gender" value="male"> Male
+    <br>
+        <input type="radio" name="Gender" value="female"> Female
+    </form>
+
+    <form>
+        <h3> Hobbies </h3>
+        <select name="dropdown">
+            <option value="Coding" selected>Coding</option>
+            <option value="Playing">Playing</option>
+            <option value="Sleeping" selected>Sleeping</option>
+            <option value="Hangout">Hangout</option>
+        </select>
+    </form>
+
+    <form>
+        <h3> Your Profile </h3>
+        <input type="file" name="fileupload" accept="image/*" />
+    </form>
+
+    <form >
+        <h3> Create Account </h3>
+        Username:  <input type="text" name="user_id" />
+    <br>
+        Password:  <input type="password" name="password" />
+    </form>
+
+    <form>
+        <input type="submit" name="submit" value="Submit" />
+        <input type="reset" name="reset"  value="Reset" />
+        <input type="button" name="ok" value="OK"  />
+        <input 
+    </form>
+    </div>
+    <footer>
+        <h3>
+            Website Copyright@2026
+        </h3>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mark Benzon - Portfolio</title>
+</head>
+<body>
+    <div class="scroll-progress" role="progressbar" aria-label="Page scroll progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <span></span>
+    </div>
+    <header class="navbar">
+        <a class="nav-brand" href="#greetings" aria-label="Mark Benzon, home">
+            <span class="brand-mark" aria-hidden="true">MB</span>
+            <span>MARK BENZON</span>
+        </a>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#greetings">Greetings</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#social">Social</a></li>
+            </ul>
+        </nav>
+        <button class="moon-toggle" type="button" aria-label="Switch to day mode" aria-pressed="false" title="Switch to day mode">
+            <span class="moon-icon" aria-hidden="true"></span>
+        </button>
+    </header>
+
+    <main id="greetings" class="content">
+        <div class="greeting-moon" aria-hidden="true">
+            <span class="moon-crater"></span>
+        </div>
+        <div class="greeting-copy">
+            <p class="greeting-kicker"><span></span> Vibe coder</p>
+            <h1>I make ideas<br>real.</h1>
+            <p class="greeting-description">I like experimenting, building little things, and seeing where an idea goes.</p>
+            <div class="greeting-actions">
+                <a class="greeting-action primary" href="#projects">See what I've made <span aria-hidden="true">↘</span></a>
+                <a class="greeting-action secondary" href="#about">A little about me <span aria-hidden="true">↗</span></a>
+            </div>
+        </div>
+    </main>
+
+    <section id="about" class="content" aria-labelledby="about-title">
+        <div class="about-intro">
+            <p class="section-eyebrow">01 / About</p>
+            <h2 id="about-title">I build by trying<br>things out.</h2>
+            <p>I'm Mark, a vibe coder who enjoys turning a spark of an idea into something you can click, use, and improve.</p>
+        </div>
+
+        <article class="profile" aria-label="Mark's profile">
+            <div class="profile-portrait">
+                <img src="ahys.jpeg" alt="Portrait of Mark Benzon">
+                <p class="portrait-caption"><span aria-hidden="true"></span> Learning something new every day</p>
+            </div>
+            <div class="profile-info">
+                <p class="profile-kicker">A little more about me</p>
+                <h3>Mark Benzon Marquez Dela Cruz</h3>
+                <div class="profile-facts" aria-label="Quick facts">
+                    <p><span>Age</span><strong>20</strong></p>
+                    <p><span>Year level</span><strong>3rd year college</strong></p>
+                </div>
+                <p class="profile-bio">I like experimenting with web ideas, figuring things out as I go, and polishing the parts that make a project feel fun to use.</p>
+                <details class="learning-details">
+                    <summary>Things I like exploring <span aria-hidden="true">+</span></summary>
+                    <ul>
+                        <li>Small web ideas</li>
+                        <li>Creative interactions</li>
+                        <li>Trying new tools</li>
+                    </ul>
+                </details>
+                <a class="about-link" href="#projects">See my experiments <span aria-hidden="true">↗</span></a>
+            </div>
+        </article>
+    </section>
+
+    <section id="experience" class="experience content" aria-labelledby="experience-title">
+        <div class="section-heading">
+            <div>
+                <p class="section-eyebrow">02 / Experience</p>
+                <h2 id="experience-title">Where I am now</h2>
+            </div>
+            <p>I'm a 3rd year college student who enjoys experimenting with code and bringing web ideas to life.</p>
+        </div>
+        <article class="experience-entry">
+            <div class="experience-stage">
+                <span>Current stage</span>
+                <strong>Student / vibe coder</strong>
+                <span>3rd year of college</span>
+            </div>
+            <div class="experience-focus">
+                <h3>Learning by making</h3>
+                <p>I like starting with a rough idea, building a first version, and adjusting it until it feels right.</p>
+                <ul aria-label="Current areas of focus">
+                    <li>Little web projects</li>
+                    <li>Interactive ideas</li>
+                    <li>Trying new tools</li>
+                </ul>
+            </div>
+        </article>
+    </section>
+
+    <section id="projects" class="activity" aria-labelledby="activity-title">
+        <div class="section-heading">
+            <div>
+                <p class="section-eyebrow">03 / Selected work</p>
+                <h2 id="activity-title">Semester work</h2>
+            </div>
+            <p>A space for my semester activities, experiments, and the things I learn while making them.</p>
+        </div>
+        <div class="activity-grid">
+            <a href="./Marquez_Finals_Act1/dom.html">
+                <img src="./Marquez_Finals_Act1/cronoo.png" alt="Preview of my DOM events activity">
+                <span>DOM Events</span>
+            </a>
+            <a href="./Marquez-Finals-Act2/index.html">
+                <img src="placeholder.jpg" alt="Preview of my JavaScript promises activity">
+                <span>JavaScript Promises</span>
+            </a>
+            <a href="./MarquezAct4/Home.html">
+                <img src="./MarquezAct4/humans.png" alt="Preview of my personal website activity">
+                <span>Personal Website</span>
+            </a>
+            <a href="./MarquezAct4F/Landing.html">
+                <img src="./MarquezAct4F/baddiegirl.jpg" alt="Preview of my anime website activity">
+                <span>Anime Website</span>
+            </a>
+            <a href="./MarquezFinalsAct3/index.html">
+                <img src="placeholder.jpg" alt="Preview of my jQuery activity">
+                <span>jQuery Activity</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="social" class="social" aria-labelledby="social-title">
+        <p class="section-eyebrow">04 / Contact</p>
+        <h2 id="social-title">Let's connect.</h2>
+        <p class="social-intro">Interested in thoughtful digital experiences? Find me online.</p>
+        <ul>
+            <li>
+                <a href="https://discord.com/" target="_blank" rel="noopener">
+                    Discord
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/your-username" target="_blank" rel="noopener">
+                    GitHub
+                </a>
+            </li>
+            <li>
+                <a href="https://www.figma.com/@your-username" target="_blank" rel="noopener">
+                    Figma
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Mark Benzon. All rights reserved.</p>
+        <a href="#greetings">Back to top</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
